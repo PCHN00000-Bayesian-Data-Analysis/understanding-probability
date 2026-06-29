@@ -1,0 +1,25 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 59c698c7-4499-4fb9-8c21-263ee2677893
+  title: Understanding Probability
+  # description:
+  # keywords: []
+  authors: [Martyn McFarquhar]
+  github: https://github.com/PCHN00000-Bayesian-Data-Analysis/understanding-probability
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: intro.md
+    - file: 1.what-does-probability-mean.ipynb
+    - file: 2.formal-definition.ipynb
+    - file: 3.probability-distributions.ipynb
+    - file: 4.conditional-probability.ipynb
+    - file: summary.md
+site:
+  template: book-theme
+  logo: images/logo.png
+  logo_dark: images/logo-dark.png
+  logo_url: https://canvas.manchester.ac.uk/courses/
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
